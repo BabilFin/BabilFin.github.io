@@ -19,13 +19,12 @@ body{
 }
 
 .heading, .clients .section-header h2, .section-head h1, .testimonials .section-header h2, .section-head-1 h4{
-    margin: 2rem;
-    padding-top: 6rem;
+    margin: 3rem;
+    padding-top: 7rem;
     display: inline-block;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: #61350f;
     position: relative;
-    letter-spacing: .2rem;
 }
 
 .heading::before, .heading::after, .clients .section-header h2::before, .clients .section-header h2::after, .section-head h1::before, .section-head h1::after, .testimonials .section-header h2::before, .testimonials .section-header h2::after, .section-head-1 h4::before, .section-head-1 h4::after{
@@ -57,7 +56,7 @@ body{
     outline: none;
     border: none;
     border-radius: 5rem;
-    background: white;
+    background: rgb(255, 255, 255);
     border-style: groove;
     border-color: #61350f;
     font-size: 1.5rem;
@@ -82,17 +81,15 @@ body{
 }
 
 .row .btn:hover{
-    letter-spacing: .1rem;
     opacity: .9;
     color: white;
     background: #61350f;
 }
 
 .communicate .btn:hover{
-    letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #00bfff;
+    background: #61350f;
 }
 
 .header{
@@ -819,7 +816,6 @@ body{
             box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
 		}
         .contact-form-btn:hover{
-            letter-spacing: .1rem;
             opacity: .9;
             color: white;
             background: #61350f;
@@ -887,7 +883,6 @@ body{
             position: relative;
             padding-bottom: 12px;
             margin-bottom: 20px;
-            letter-spacing: 1px;
         }
         
         .footer .footer-top h4::before {
@@ -959,7 +954,6 @@ body{
             color: #ffffff;
             background: #ffc400;
             border: 1px solid #ffc400;
-            letter-spacing: .2rem;
         }
         
         .footer .footer-top .footer-newsletter p {
@@ -1294,7 +1288,7 @@ body{
             border-radius: 5rem;
             background: white;
             border-style: groove;
-            border-color: #ffc400;
+            border-color: #61350f;
             font-size: 1.5rem;
             cursor: pointer;
             height: 3.5rem;
@@ -1302,10 +1296,9 @@ body{
             box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
 		}
         .contact-form-btn:hover{
-            letter-spacing: .1rem;
             opacity: .9;
             color: white;
-            background: #ffc400;
+            background: #61350f;
         }
 		.contact-form-phone
 		{
